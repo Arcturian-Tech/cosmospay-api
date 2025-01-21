@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
 
 //const githubRepo = 'https://raw.githubusercontent.com/atmoner/chains-api/main/cosmos.config.json'
-const githubRepo = 'https://raw.githubusercontent.com/BitCannaGlobal/cosmospay-api/main/cosmos.config.json'
+const githubRepo = 'https://raw.githubusercontent.com/Arcturian-Tech/cosmospay-api/refs/heads/arcturian/cosmos.config.json'
 
 app.get('/', function (req, res) {
   res.setHeader('Content-Type', 'application/json');
